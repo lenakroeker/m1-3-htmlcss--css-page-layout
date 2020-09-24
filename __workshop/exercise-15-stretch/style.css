@@ -1,0 +1,25 @@
+
+
+.btn {
+    font-family: poppins, sans-serif;
+    font-size:20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: white;
+}
+
+
+
+
+
+.btn-primary{border: 2px solid blue; color: blue}
+.btn-secondary{border: 2px solid darkgrey; color:darkgrey}
+.btn-success{border: 2px solid rgb(0, 189, 0); color:rgb(0, 189, 0)}
+.btn-danger{border: 2px solid red;color:red}
+.btn-warning{border: 2px solid orange; color:orange;}
+.btn-info{border: 2px solid teal;color: teal}
+.btn-light{border: 2px solid rgb(243, 243, 243); color:rgb(243, 243, 243);}
+.btn-dark{border: 2px solid rgb(31, 31, 31);color: rgb(39, 39, 39)}
+.btn-link{border: 2px solid white; color: blue;}

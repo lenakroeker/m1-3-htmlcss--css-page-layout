@@ -1,0 +1,24 @@
+
+
+.btn {
+    font-family: poppins, sans-serif;
+    font-size:20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
+.btn-primary{background: blue;}
+.btn-secondary{background: darkgrey;}
+.btn-success{background: green;}
+.btn-danger{background: red;}
+.btn-warning{background: orange; color:black;}
+.btn-info{background: teal;}
+.btn-light{background: rgb(243, 243, 243); color: black;}
+.btn-dark{background: black;}
+.btn-link{background: white; color: blue;}

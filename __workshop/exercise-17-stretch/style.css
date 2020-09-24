@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.card{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+}
+
+.card-header {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    background: rgb(245, 245, 245);
+    padding: 20px
+}
+
+.card-body {
+    padding: 20px;
+    line-height: 2em;
+}
+
+h5 {
+    font-size: 20px;
+}
+.card-text {
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgb(0, 132, 255);
+}

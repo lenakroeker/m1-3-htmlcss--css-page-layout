@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.card{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+}
+
+.card-header {
+    background: rgb(245, 245, 245);
+    padding: 15px
+}
+
+.card-body {
+    padding: 15px;
+    line-height: 2em;
+}
+
+.list-item {
+    border-top: 1px solid rgb(214, 214, 214);
+    list-style-type: none;
+    margin-left: -41px;
+    padding: 15px;
+}
