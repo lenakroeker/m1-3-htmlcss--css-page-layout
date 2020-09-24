@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin : 0;
+
+    
+}
+
+.nav,
+.footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    font-size: 30px;
+}

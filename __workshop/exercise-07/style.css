@@ -2,6 +2,49 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin-left: 30px;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+.mobile-nav{
+  margin: 30px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.desktop-nav {
+  display:none;
+}
+
+@media only screen and (min-width: 800px){
+
+.mobile-nav {
+  display: none;
+}
+
+.desktop-nav {
+  display:block;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 30px 0 30px;
+}
+
+li:last-of-type{
+  margin-right: 30px;
+}
+
 }
